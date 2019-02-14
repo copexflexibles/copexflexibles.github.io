@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,300italic,400italic");
+/*@import url("font-awesome.min.css");*/
 
 /*
 	Astral by HTML5 UP
@@ -1325,7 +1326,7 @@ input, select, textarea {
 
 	body, input, textarea, select {
 		font-family: 'Source Sans Pro', sans-serif;
-		font-weight: 300;
+		font-weight: 400;
 		color: #777777;
 		font-size: 20pt;
 		line-height: 1.75em;
@@ -1364,23 +1365,24 @@ input, select, textarea {
 		}
 
 	strong, b, h1, h2, h3, h4, h5, h6 {
-		font-weight: 400;
+		font-weight: 600;
 		color: #363636;
 	}
 
 	h1 {
 		font-size: 2.4em;
-		letter-spacing: -0.015em;
+		/*letter-spacing: -0.015em;*/
 	}
 
 	h2 {
 		font-size: 1.8em;
-		letter-spacing: -0.015em;
+		text-transform: uppercase;
+		/*letter-spacing: -0.015em;*/
 	}
 
 	h3, h4, h5, h6 {
 		font-size: 1.25em;
-		letter-spacing: -0.015em;
+		/*letter-spacing: -0.015em;*/
 	}
 
 	@media screen and (max-width: 736px) {
@@ -1772,6 +1774,7 @@ input, select, textarea {
 			-webkit-transition: opacity .25s ease-in-out;
 			-ms-transition: opacity .25s ease-in-out;
 			transition: opacity .25s ease-in-out;
+			text-decoration: none;
 		}
 
 			#nav a.icon:before {
@@ -1815,6 +1818,7 @@ input, select, textarea {
 				transition: opacity .25s ease-in-out;
 				width: 9em;
 				margin-left: -4.5em;
+				font-family: "Source Sans Pro";
 			}
 
 				#nav a span:after {
