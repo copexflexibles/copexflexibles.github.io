@@ -2188,7 +2188,7 @@ footer, header, hgroup, menu, nav, section {
 	.label {
 		text-transform: uppercase;
 		font-weight: 600;
-		letter-spacing: 4px;
+		letter-spacing: 2px;
 	}
 
 	.label:first-child {
