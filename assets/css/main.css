@@ -2382,3 +2382,48 @@ footer, header, hgroup, menu, nav, section {
             transform: translate3d(0, -91.64%, 0);
   }
 }
+
+.desc-card {
+	display: flex;
+	flex-flow: column nowrap;
+	margin-bottom: 2.5em;
+}
+
+.desc-card > .title {
+    font-size: 1.25em;
+    font-weight: 600;
+    padding-bottom: .5em;
+    border-bottom: 1px solid #cecece;
+    margin-bottom: .5em;
+    color: #e64a19;
+}
+
+.desc-card > .inner {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.desc-card .desc-label {
+    width: 30%;
+    font-size: .9em;
+    letter-spacing: 2px;
+	font-weight: 600;
+	color: rgb(119, 119, 119);
+	text-transform: uppercase;
+}
+
+.desc-card .desc-value {
+    width: 70%;
+    padding: 0 .5em .5em;
+}
+
+@media screen and (max-width: 576px) {
+	.desc-card .desc-label, .desc-card .desc-value {
+		width: 100%;
+	}
+
+	.desc-card .desc-value {
+		padding-left: .5em;
+		padding-bottom: 1.125em;
+	}
+}
